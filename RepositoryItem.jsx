@@ -11,7 +11,9 @@ const RepositoryItem = (props) => (
       {props.fullName}
     </StyledText>
     <StyledText>{props.description}</StyledText>
-    <StyledText style={styles.language}>{props.language}</StyledText>
+    <StyledText style={{ ...styles.language, textAlign: 'center' }}>
+  {props.language}
+</StyledText>
     <RepositoryStats {...props} />
   </View>
 );
@@ -31,9 +33,9 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   image: {
-    width: 48,
-    height: 48,
-    borderRadius: 4,
+    width: 100,
+    height: 100,
+    borderRadius: 100,
   },
 });
 

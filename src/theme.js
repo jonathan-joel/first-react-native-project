@@ -6,15 +6,15 @@ const theme = {
     white: 'fefefe'
  },
    fontSizes: {
-      body: 14,
-      subheading: 16
+      body: 20,
+      subheading: 10
  },
   fonts: {
     main: 'System'
  },
   fontWeights: {
-    normal: '400',
-    bold: '700'
+    normal: '600',
+    bold: '650'
  }
 }
 

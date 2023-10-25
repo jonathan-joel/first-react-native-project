@@ -6,7 +6,7 @@ import RepositoryList from '../organisms/RepositoryList';
 const Main = () => {
   return (
     <View style={{ marginTop: Constants.statusBarHeight, flexGrow: 1 }}>
-      <Text>Rate Repositorio aplicacion</Text>
+      <Text></Text>
       <RepositoryList />
     </View>
   );

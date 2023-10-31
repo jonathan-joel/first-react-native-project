@@ -10,7 +10,7 @@ const RepositoryStats = (props) => {
   return (
     <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
       <View>
-        <StyledText align="center" fontWeight="bold">
+        <StyledText align="start" fontWeight="bold" style={{backgtoungColor:"black"}}>
           Country: 
         </StyledText>
         <StyledText align="center">{parseThousands(props.country)}</StyledText>
@@ -24,7 +24,7 @@ const RepositoryStats = (props) => {
         </StyledText>
       </View>
       <View>
-        <StyledText align="center" fontWeight="bold">
+        <StyledText align="end" fontWeight="bold">
           Rating:
         </StyledText>
         <StyledText align="center">{props.ratingAverage}</StyledText>

@@ -19,29 +19,29 @@ const RepositoryItem = (props) => (
 
 const styles = StyleSheet.create({
   container: {
-    marginBottom: 80,
-    padding: 10,
-    paddingBottom: 15,
-    paddingTop: 15,
+    alignContent:"start"
+    
+  
   },
   description:{
-    alignSelf: 'center',
-    marginTop: 10,
-    marginBottom: 2,
-
+    alignSelf:'center',
+    fontSize:20,
+    fontStyle: "children"
   },
   language: {
-    padding: 4,
+    padding: 1,
     color: theme.colors.white,
     backgroundColor: theme.colors.primary,
     alignSelf: 'center',
-    borderRadius: 4,
+    borderRadius: 20,
     overflow: 'hidden',
   },
   image: {
-    width: 48,
-    height: 50,
-    alignSelf: 'center',
+    
+    alignSelf:"center",
+    width: 80,
+    height: 80,
+
     
   },
     

@@ -8,6 +8,7 @@ export default [
     ratingAverage: 4.8,
     reviewCount: 15000,
     logoUrl: 'data:image/jpeg;base64,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',
+    
   },
   {
     id: 'samsung',
@@ -36,25 +37,27 @@ export default [
   {
     id: 'huawei',
     name: 'Huawei',
-    description: 'Huawei and Honor smartphones',
     language: 'ENTRAR',
+    description: 'Huawei and Honor smartphones',
+    
     country: 'China',
     ratingAverage: 4.3,
     reviewCount: 8000,
-    logoUrl: 'https://ifce.edu.br/noticias/noticias-de-destaque/reitores-vao-receber-comitiva-da-huawei/huawei-logo-1.jpg/@@images/image.jpeg',
+    logoUrl: 'https://logowik.com/content/uploads/images/huawei8681.logowik.com.webp',
     backgroundColor: '#ffecb3',
     textColor: '#f57c00',
   },
+ 
   {
     id: 'oneplus',
     name: 'OnePlus',
-    description: 'OnePlus phones and accessories',
     language: 'ENTRAR',
     country: 'China',
+    description: 'OnePlus phones and accessories',
     ratingAverage: 4.7,
     reviewCount: 6000,
     logoUrl: 'https://i.pinimg.com/originals/f1/37/c8/f137c8e169d6a1ac74198400eeb949e0.jpg',
     backgroundColor: '#e0f2f1',
     textColor: '#009688',
   },
-];
+  ];

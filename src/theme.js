@@ -1,7 +1,6 @@
 const theme = {
     colors: {
     textPrimary: '#24292e',
-    textSecondary: '#586069',
     primary: '#0366d6',
     white: 'fefefe'
  },
@@ -13,8 +12,8 @@ const theme = {
     main: 'System'
  },
   fontWeights: {
-    normal: '600',
-    bold: '650'
+   bold: 700
+   
  }
 }
 

@@ -20,22 +20,19 @@ const RepositoryItem = (props) => (
 
 const styles = StyleSheet.create({
   container: {
-    padding: 10,
     paddingBottom: 15,
-    paddingTop: 15,
+    paddingTop: 150,
   },
   language: {
-    padding: 4,
     color: theme.colors.white,
     backgroundColor: theme.colors.primary,
-    alignSelf: 'flex-start',
     borderRadius: 4,
     overflow: 'hidden',
   },
   image: {
     width: 100,
     height: 100,
-    borderRadius: 100,
+    
   },
 });
 
